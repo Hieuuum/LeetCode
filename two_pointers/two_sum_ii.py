@@ -1,6 +1,7 @@
-#167. Two Sum II - Input Array Is Sorted
+#167. Two Sum II - Input Array Is Sorted (Medium)
+
 class Solution:
-    def twoSum(self, numbers, target: int): #numbers: List[int]
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
         # No hints
         left = 0
         right = len(numbers) - 1

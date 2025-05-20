@@ -1,7 +1,7 @@
 #LeetCode 242. Valid Anagram
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        # Used hints
+        # Many hints
         left_i = 0
         right_i = len(s)-1
 

@@ -1,4 +1,6 @@
-#217. Contains Duplicate
+#217. Contains Duplicate (Easy)
+
 class Solution:
-    def containsDuplicate(self, nums) -> bool: #nums: List[int]
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        # No hints
         return len(set(nums)) != len(nums)
