@@ -1,5 +1,6 @@
 #242. Valid Anagram (Easy)
 class Solution:
+    # Used 3 hints
     def isAnagram(self, s: str, t: str) -> bool:
         s_list = {}
         for letter in s:
