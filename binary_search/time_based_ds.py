@@ -13,14 +13,9 @@ class TimeMap:
         
 
     def get(self, key: str, timestamp: int) -> str:
-        if key not in self.time_dict:
-            return ""
-
-        val = self.time_dict[key]
-        if val[0][0] > timestamp:
-            return ""
-        
         res = ""
+        val = self.time_dict(key, [])
+        
         l, r = 0, len(val) - 1
 
         while l <= r:
