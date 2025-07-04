@@ -1,4 +1,4 @@
-# 19. Remove Node From End of Linked List (Medium)
+# 141. Linked List Cycle (Easy)
 
 # Definition for singly-linked list.
 # class ListNode:
