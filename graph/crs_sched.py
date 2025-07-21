@@ -1,3 +1,5 @@
+# 207. Course Schedule (Medium)
+
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         preMap = {i:[] for i in range(numCourses)}
