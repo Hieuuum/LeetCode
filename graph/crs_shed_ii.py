@@ -1,5 +1,6 @@
 # 210. Course Schedule II (Medium)
 
+# Kahn's Algorithm
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         adj = {i: set() for i in range(numCourses)}
