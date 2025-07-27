@@ -17,7 +17,7 @@ class Solution:
                 newR, newC = r+dr, c+dc
                 if (min(newR, newC) >= 0 and newR < ROWS 
                 and newC < COLS and visited[newR][newC] == 0):
-                    visited[r][c] = 1
+                    visited[newR][newC] = 1
                     heapq.heappush(minHeap, [max(grid[newR][newC], t), newR, newC])
 
         
