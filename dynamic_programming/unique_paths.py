@@ -1,3 +1,5 @@
+# 62. Unique Paths (Medium)
+
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
         grid = [[0 for _ in range(n)] for _ in range(m)]
