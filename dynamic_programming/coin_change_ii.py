@@ -6,7 +6,7 @@ class Solution:
         dp[0] = 1
 
         for coin in coins:
-            for i in range(1, amount + 1):
+            for i in range(i, amount + 1):
                 dp[i] += dp[i - coin] if i >= coin else 0
         
         return dp[amount]
